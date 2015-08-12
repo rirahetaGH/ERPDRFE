@@ -9,7 +9,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.ViewScoped;
 import com.prueba.showcase.domain.Car;
-import com.sifco.inventory.bean.PriceListBean;
+//import com.sifco.inventory.bean.PriceListBean;
 import com.sifcoapp.client.AdminEJBClient;
 import com.sifcoapp.objects.admin.to.ArticlesPriceTO;
 import com.sifcoapp.objects.admin.to.PricesListTO;
@@ -64,7 +64,7 @@ public class FilterView implements Serializable {
             System.out.println("Despues del showHideDialog  " + new Date());
 
         } catch (Exception ex) {
-            Logger.getLogger(PriceListBean.class.getName()).log(Level.SEVERE, null, ex);
+//            Logger.getLogger(PriceListBean.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
