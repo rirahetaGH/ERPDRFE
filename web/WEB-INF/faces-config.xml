@@ -182,11 +182,6 @@
         <managed-bean-scope>view</managed-bean-scope>
     </managed-bean>
     <managed-bean>
-        <managed-bean-name>warehouseBean</managed-bean-name>
-        <managed-bean-class>com.sifcoapp.warehouse.bean.WarehouseBean</managed-bean-class>
-        <managed-bean-scope>view</managed-bean-scope>
-    </managed-bean>
-    <managed-bean>
         <managed-bean-name>articlesSearchView</managed-bean-name>
         <managed-bean-class>com.sifco.bean.ArticlesSearchView</managed-bean-class>
         <managed-bean-scope>view</managed-bean-scope>
@@ -242,11 +237,6 @@
         <managed-bean-scope>application</managed-bean-scope>
     </managed-bean>
     <managed-bean>
-        <managed-bean-name>goodsReceiptBean</managed-bean-name>
-        <managed-bean-class>com.sifco.inventory.bean.GoodsReceiptBean</managed-bean-class>
-        <managed-bean-scope>session</managed-bean-scope>
-    </managed-bean>
-    <managed-bean>
         <managed-bean-name>chartAccounts</managed-bean-name>
         <managed-bean-class>com.sifco.bean.ChartAccounts</managed-bean-class>
         <managed-bean-scope>session</managed-bean-scope>
@@ -257,26 +247,9 @@
         <managed-bean-scope>session</managed-bean-scope>
     </managed-bean>
     <managed-bean>
-        <managed-bean-name>goodsIssuesBean</managed-bean-name>
-        <managed-bean-class>com.sifco.inventory.bean.GoodsIssuesBean</managed-bean-class>
-        <managed-bean-scope>session</managed-bean-scope>
-    </managed-bean>
-    <managed-bean>
-        <description>transferencias de inventario</description>
-        <managed-bean-name>TransfersBean</managed-bean-name>
-        <managed-bean-class>com.sifco.inventory.bean.TransfersBean</managed-bean-class>
-        <managed-bean-scope>session</managed-bean-scope>
-    </managed-bean>
-    <managed-bean>
         <description>transferencias de inventario</description>
         <managed-bean-name>salesBean</managed-bean-name>
         <managed-bean-class>com.sifco.sales.bean.SalesBean</managed-bean-class>
-        <managed-bean-scope>session</managed-bean-scope>
-    </managed-bean>
-    <managed-bean>
-        <description>creacion de listas de precios</description>
-        <managed-bean-name>priceListBean</managed-bean-name>
-        <managed-bean-class>com.sifco.inventory.bean.PriceListBean</managed-bean-class>
         <managed-bean-scope>session</managed-bean-scope>
     </managed-bean>
     <managed-bean>
@@ -289,25 +262,9 @@
         <managed-bean-class>com.sifco.common.bean.CommonBean</managed-bean-class>
         <managed-bean-scope>application</managed-bean-scope>
     </managed-bean>
-    <managed-bean>
-        <description>compras</description>
-        <managed-bean-name>purchaseBean</managed-bean-name>
-        <managed-bean-class>com.sifco.purchase.bean.PurchaseBean</managed-bean-class>
-        <managed-bean-scope>session</managed-bean-scope>
-    </managed-bean>
-    <managed-bean>
-        <managed-bean-name>supplierCreditNotesBean</managed-bean-name>
-        <managed-bean-class>com.sifco.purchase.bean.SupplierCreditNotesBean</managed-bean-class>
-        <managed-bean-scope>session</managed-bean-scope>
-    </managed-bean>
      <managed-bean>
         <managed-bean-name>RecurringPosting</managed-bean-name>
         <managed-bean-class>com.sifco.bean.RecurringPosting</managed-bean-class>
-        <managed-bean-scope>session</managed-bean-scope>
-    </managed-bean>
-    <managed-bean>
-        <managed-bean-name>purchaseQuotationBean</managed-bean-name>
-        <managed-bean-class>com.sifco.purchase.bean.PurchaseQuotationBean</managed-bean-class>
         <managed-bean-scope>session</managed-bean-scope>
     </managed-bean>
     <managed-bean>
@@ -322,21 +279,6 @@
     
         <managed-bean-scope>session</managed-bean-scope></managed-bean>
     <managed-bean>
-        <managed-bean-name>checkForPaymentBean</managed-bean-name>
-        <managed-bean-class>com.sifcoapp.bank.bean.CheckForPaymentBean</managed-bean-class>
-        <managed-bean-scope>session</managed-bean-scope>
-    </managed-bean>
-    <managed-bean>
-        <managed-bean-name>colecturiaBean</managed-bean-name>
-        <managed-bean-class>com.sifcoapp.bank.bean.ColecturiaBean</managed-bean-class>
-        <managed-bean-scope>session</managed-bean-scope>
-    </managed-bean>
-    <managed-bean>
-        <managed-bean-name>chartAccountsBean</managed-bean-name>
-        <managed-bean-class>com.sifco.finance.bean.ChartAccountsBean</managed-bean-class>
-        <managed-bean-scope>session</managed-bean-scope>
-    </managed-bean>
-    <managed-bean>
         <managed-bean-name>sales2</managed-bean-name>
         <managed-bean-class>com.prueba.ejb.Sales2</managed-bean-class>
         <managed-bean-scope>application</managed-bean-scope>
@@ -344,11 +286,6 @@
     <managed-bean>
         <managed-bean-name>salesDieselBean</managed-bean-name>
         <managed-bean-class>com.sifco.sales.bean.SalesDieselBean</managed-bean-class>
-        <managed-bean-scope>session</managed-bean-scope>
-    </managed-bean>
-    <managed-bean>
-        <managed-bean-name>conceptBean</managed-bean-name>
-        <managed-bean-class>com.sifcoapp.bank.bean.ConceptBean</managed-bean-class>
         <managed-bean-scope>session</managed-bean-scope>
     </managed-bean>
     <managed-bean>
@@ -367,23 +304,8 @@
         <managed-bean-scope>session</managed-bean-scope>
     </managed-bean>
     <managed-bean>
-        <managed-bean-name>conciliationBean</managed-bean-name>
-        <managed-bean-class>com.sifco.finance.bean.ConciliationBean</managed-bean-class>
-        <managed-bean-scope>session</managed-bean-scope>
-    </managed-bean>
-    <managed-bean>
         <managed-bean-name>indexBean</managed-bean-name>
         <managed-bean-class>com.sifco.common.bean.IndexBean</managed-bean-class>
-        <managed-bean-scope>session</managed-bean-scope>
-    </managed-bean>
-    <managed-bean>
-        <managed-bean-name>dailyClosingBean</managed-bean-name>
-        <managed-bean-class>com.sifcoapp.bank.bean.DailyClosingBean</managed-bean-class>
-        <managed-bean-scope>session</managed-bean-scope>
-    </managed-bean>
-    <managed-bean>
-        <managed-bean-name>periodEndBean</managed-bean-name>
-        <managed-bean-class>com.sifcoapp.bank.bean.PeriodEndBean</managed-bean-class>
         <managed-bean-scope>session</managed-bean-scope>
     </managed-bean>
 </faces-config>
